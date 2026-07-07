@@ -1,0 +1,628 @@
+{
+  "nodes": [
+    {
+      "id": "camel_2023",
+      "type": "Paper",
+      "properties": {
+        "id": "camel_2023",
+        "title": "CAMEL: Communicative Agents for 'Mind' Exploration of Large Model Society",
+        "year": 2023,
+        "abstract": "We explore the communicative agent framework, which uses roleplaying to enable autonomous agents to cooperate. We introduce the Communicative Agent Method. By setting role-playing instructions, two agents (e.g. programmer and user) cooperate to solve tasks. Our experiment shows role-playing agent systems can successfully generate software and designs.",
+        "venue": "NeurIPS",
+        "core_contribution": "The Communicative Agent Method enables autonomous agents to cooperate through role-playing."
+      }
+    },
+    {
+      "id": "guohao_li",
+      "type": "Author",
+      "properties": {
+        "id": "guohao_li",
+        "name": "Guohao Li"
+      }
+    },
+    {
+      "id": "hasan_hammoud",
+      "type": "Author",
+      "properties": {
+        "id": "hasan_hammoud",
+        "name": "Hasan Hammoud"
+      }
+    },
+    {
+      "id": "bernard_ghanem",
+      "type": "Author",
+      "properties": {
+        "id": "bernard_ghanem",
+        "name": "Bernard Ghanem"
+      }
+    },
+    {
+      "id": "neurips",
+      "type": "Venue",
+      "properties": {
+        "id": "neurips",
+        "name": "NeurIPS"
+      }
+    },
+    {
+      "id": "chatdev_2023",
+      "type": "Paper",
+      "properties": {
+        "id": "chatdev_2023",
+        "title": "ChatDev: Communicative Agents for Software Development",
+        "year": 2023,
+        "abstract": "We present ChatDev, a virtual software company. ChatDev applies the communicative agent roleplay method of CAMEL to software development. We extend the communicative agent method by introducing a sequential software development process (SOP) where agents occupy distinct roles like designer, coder, and tester. Our method collaborates sequentially to reduce hallucination and improve code quality.",
+        "venue": "ACL",
+        "core_contribution": "We extend the communicative agent method by introducing a sequential software development process (SOP) where agents occupy distinct roles like designer, coder, and tester."
+      }
+    },
+    {
+      "id": "chen_qian",
+      "type": "Author",
+      "properties": {
+        "id": "chen_qian",
+        "name": "Chen Qian"
+      }
+    },
+    {
+      "id": "wei_liu",
+      "type": "Author",
+      "properties": {
+        "id": "wei_liu",
+        "name": "Wei Liu"
+      }
+    },
+    {
+      "id": "yufan_dang",
+      "type": "Author",
+      "properties": {
+        "id": "yufan_dang",
+        "name": "Yufan Dang"
+      }
+    },
+    {
+      "id": "acl",
+      "type": "Venue",
+      "properties": {
+        "id": "acl",
+        "name": "ACL"
+      }
+    },
+    {
+      "id": "autogen_2023",
+      "type": "Paper",
+      "properties": {
+        "id": "autogen_2023",
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "year": 2023,
+        "abstract": "We introduce AutoGen, a framework for building multi-agent conversation systems. AutoGen introduces Conversable Agents that can talk to each other and execute code. Developers can manually program conversation graphs to build complex workflows. AutoGen simplifies multi-agent orchestration and supports human-in-the-loop interaction.",
+        "venue": "arXiv",
+        "core_contribution": "AutoGen introduces Conversable Agents that can talk to each other and execute code."
+      }
+    },
+    {
+      "id": "qingyun_wu",
+      "type": "Author",
+      "properties": {
+        "id": "qingyun_wu",
+        "name": "Qingyun Wu"
+      }
+    },
+    {
+      "id": "gagan_bansal",
+      "type": "Author",
+      "properties": {
+        "id": "gagan_bansal",
+        "name": "Gagan Bansal"
+      }
+    },
+    {
+      "id": "jieyu_zhang",
+      "type": "Author",
+      "properties": {
+        "id": "jieyu_zhang",
+        "name": "Jieyu Zhang"
+      }
+    },
+    {
+      "id": "arxiv",
+      "type": "Venue",
+      "properties": {
+        "id": "arxiv",
+        "name": "arXiv"
+      }
+    },
+    {
+      "id": "metagpt_2023",
+      "type": "Paper",
+      "properties": {
+        "id": "metagpt_2023",
+        "title": "MetaGPT: Meta Programming for Multi-Agent Collaborative Framework",
+        "year": 2023,
+        "abstract": "We introduce MetaGPT, a framework that incorporates Standard Operating Procedures (SOPs) into multi-agent systems. MetaGPT introduces a Shared Blackboard Memory method, where all agents read and write to a common memory store, guided by structured documents like PRDs and system designs. This shared memory mechanism reduces noise compared to direct message passing in AutoGen.",
+        "venue": "EMNLP",
+        "core_contribution": "MetaGPT introduces a Shared Blackboard Memory method for multi-agent systems."
+      }
+    },
+    {
+      "id": "sirui_hong",
+      "type": "Author",
+      "properties": {
+        "id": "sirui_hong",
+        "name": "Sirui Hong"
+      }
+    },
+    {
+      "id": "mingjie_xia",
+      "type": "Author",
+      "properties": {
+        "id": "mingjie_xia",
+        "name": "Mingjie Xia"
+      }
+    },
+    {
+      "id": "wendy_jiang",
+      "type": "Author",
+      "properties": {
+        "id": "wendy_jiang",
+        "name": "Wendy Jiang"
+      }
+    },
+    {
+      "id": "emnlp",
+      "type": "Venue",
+      "properties": {
+        "id": "emnlp",
+        "name": "EMNLP"
+      }
+    },
+    {
+      "id": "dynabar_2024",
+      "type": "Paper",
+      "properties": {
+        "id": "dynabar_2024",
+        "title": "Dynabar: Dynamic Blackboard Memory for Multi-Agent Systems",
+        "year": 2024,
+        "abstract": "We introduce Dynabar, a dynamic blackboard memory system. MetaGPT's static shared blackboard memory suffers from cognitive overload when agent count grows, as agents are flooded with irrelevant information. Dynabar addresses this limitation of MetaGPT by implementing dynamic subscription filters and hierarchical memory trees, allowing agents to prune blackboard updates based on task relevance.",
+        "venue": "NeurIPS",
+        "core_contribution": "Dynabar addresses the cognitive overload issue in MetaGPT's static shared blackboard memory by implementing dynamic subscription filters and hierarchical memory trees."
+      }
+    },
+    {
+      "id": "vertika_singh",
+      "type": "Author",
+      "properties": {
+        "id": "vertika_singh",
+        "name": "Vertika Singh"
+      }
+    },
+    {
+      "id": "alice_chen",
+      "type": "Author",
+      "properties": {
+        "id": "alice_chen",
+        "name": "Alice Chen"
+      }
+    },
+    {
+      "id": "gptswarm_2024",
+      "type": "Paper",
+      "properties": {
+        "id": "gptswarm_2024",
+        "title": "GPTSwarm: Optimizing Agent Networks",
+        "year": 2024,
+        "abstract": "We present GPTSwarm, a framework that optimizes agent networks. Unlike AutoGen's manual conversation programming, GPTSwarm automatically searches for the optimal swarm graph. GPTSwarm competes directly with AutoGen by achieving higher accuracy on coding benchmarks with lower cost, proving that automated graph optimization is superior to hand-crafted agent topologies.",
+        "venue": "arXiv",
+        "core_contribution": "GPTSwarm automatically searches for the optimal swarm graph, outperforming hand-crafted agent topologies."
+      }
+    },
+    {
+      "id": "janis_klaise",
+      "type": "Author",
+      "properties": {
+        "id": "janis_klaise",
+        "name": "Janis Klaise"
+      }
+    },
+    {
+      "id": "bob_smith",
+      "type": "Author",
+      "properties": {
+        "id": "bob_smith",
+        "name": "Bob Smith"
+      }
+    },
+    {
+      "id": "communicative-agent-method",
+      "type": "Method",
+      "properties": {
+        "id": "communicative-agent-method",
+        "name": "Communicative Agent Method",
+        "description": "uses roleplaying to enable autonomous agents to cooperate",
+        "first_introduced_by": "camel_2023"
+      }
+    },
+    {
+      "id": "sequential-software-development-process-sop",
+      "type": "Method",
+      "properties": {
+        "id": "sequential-software-development-process-sop",
+        "name": "Sequential Software Development Process (SOP)",
+        "description": "a process where agents occupy distinct roles like designer, coder, and tester",
+        "first_introduced_by": "chatdev_2023"
+      }
+    },
+    {
+      "id": "conversable-agents",
+      "type": "Method",
+      "properties": {
+        "id": "conversable-agents",
+        "name": "Conversable Agents",
+        "description": "Agents that can talk to each other and execute code",
+        "first_introduced_by": "autogen_2023"
+      }
+    },
+    {
+      "id": "manual-programming-of-conversation-graphs",
+      "type": "Method",
+      "properties": {
+        "id": "manual-programming-of-conversation-graphs",
+        "name": "Manual Programming of Conversation Graphs",
+        "description": "Developers can manually program conversation graphs to build complex workflows",
+        "first_introduced_by": "autogen_2023"
+      }
+    },
+    {
+      "id": "multi-agent-orchestration-simplification",
+      "type": "Method",
+      "properties": {
+        "id": "multi-agent-orchestration-simplification",
+        "name": "Multi-Agent Orchestration Simplification",
+        "description": "AutoGen simplifies multi-agent orchestration",
+        "first_introduced_by": "autogen_2023"
+      }
+    },
+    {
+      "id": "shared-blackboard-memory",
+      "type": "Method",
+      "properties": {
+        "id": "shared-blackboard-memory",
+        "name": "Shared Blackboard Memory",
+        "description": "a common memory store for all agents, guided by structured documents",
+        "first_introduced_by": "metagpt_2023"
+      }
+    },
+    {
+      "id": "standard-operating-procedures-sops",
+      "type": "Method",
+      "properties": {
+        "id": "standard-operating-procedures-sops",
+        "name": "Standard Operating Procedures (SOPs)",
+        "description": "incorporated into multi-agent systems",
+        "first_introduced_by": null
+      }
+    },
+    {
+      "id": "direct-message-passing",
+      "type": "Method",
+      "properties": {
+        "id": "direct-message-passing",
+        "name": "direct message passing",
+        "description": "reduced by Shared Blackboard Memory",
+        "first_introduced_by": null
+      }
+    },
+    {
+      "id": "dynamic-blackboard-memory",
+      "type": "Method",
+      "properties": {
+        "id": "dynamic-blackboard-memory",
+        "name": "Dynamic Blackboard Memory",
+        "description": "a dynamic blackboard memory system",
+        "first_introduced_by": "dynabar_2024"
+      }
+    },
+    {
+      "id": "automated-graph-optimization",
+      "type": "Method",
+      "properties": {
+        "id": "automated-graph-optimization",
+        "name": "Automated Graph Optimization",
+        "description": "Automatically searching for the optimal swarm graph",
+        "first_introduced_by": "gptswarm_2024"
+      }
+    },
+    {
+      "id": "manual-conversation-programming",
+      "type": "Method",
+      "properties": {
+        "id": "manual-conversation-programming",
+        "name": "Manual Conversation Programming",
+        "description": "Hand-crafted agent topologies",
+        "first_introduced_by": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "camel_2023",
+      "target": "guohao_li",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "camel_2023",
+      "target": "hasan_hammoud",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "camel_2023",
+      "target": "bernard_ghanem",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "camel_2023",
+      "target": "neurips",
+      "type": "PUBLISHED_IN",
+      "properties": {}
+    },
+    {
+      "source": "camel_2023",
+      "target": "communicative-agent-method",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "chen_qian",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "wei_liu",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "yufan_dang",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "acl",
+      "type": "PUBLISHED_IN",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "camel_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "communicative-agent-method",
+      "type": "APPLIES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "chatdev_2023",
+      "target": "sequential-software-development-process-sop",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "qingyun_wu",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "gagan_bansal",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "jieyu_zhang",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "camel_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "conversable-agents",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "manual-programming-of-conversation-graphs",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "autogen_2023",
+      "target": "multi-agent-orchestration-simplification",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "sirui_hong",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "mingjie_xia",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "wendy_jiang",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "emnlp",
+      "type": "PUBLISHED_IN",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "camel_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "chatdev_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "shared-blackboard-memory",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "standard-operating-procedures-sops",
+      "type": "APPLIES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "metagpt_2023",
+      "target": "direct-message-passing",
+      "type": "EXTENDS_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "vertika_singh",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "alice_chen",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "neurips",
+      "type": "PUBLISHED_IN",
+      "properties": {}
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "metagpt_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "metagpt_2023",
+      "type": "ADDRESSES_LIMITATION_OF",
+      "properties": {
+        "reason": "MetaGPT's static shared blackboard memory"
+      }
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "dynamic-blackboard-memory",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "dynabar_2024",
+      "target": "shared-blackboard-memory",
+      "type": "APPLIES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "janis_klaise",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "bob_smith",
+      "type": "AUTHORED_BY",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "chatdev_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "autogen_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "autogen_2023",
+      "type": "ADDRESSES_LIMITATION_OF",
+      "properties": {
+        "reason": "Manual Conversation Programming"
+      }
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "metagpt_2023",
+      "type": "CITES",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "automated-graph-optimization",
+      "type": "INTRODUCES_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "automated-graph-optimization",
+      "type": "EXTENDS_METHOD",
+      "properties": {}
+    },
+    {
+      "source": "gptswarm_2024",
+      "target": "manual-conversation-programming",
+      "type": "APPLIES_METHOD",
+      "properties": {}
+    }
+  ]
+}
